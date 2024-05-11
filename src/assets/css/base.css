@@ -1,0 +1,22 @@
+/* semantic color variables for this project */
+:root {
+  --color-primary: #d1ae6f;
+
+  --color-secondary: #898888;
+
+  --color-background: #000000;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+body {
+  color: #fff;
+  min-height: 100dvh;
+  background: var(--color-background);
+}
