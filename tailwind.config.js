@@ -8,6 +8,9 @@ export default {
       padding: '1rem'
     },
     extend: {
+      colors: {
+        primary: 'var(--color-primary)'
+      },
       backgroundImage: {
         'hero-pattern': "url('./src/assets/icons/HomeBackground.svg')"
       },
@@ -15,21 +18,16 @@ export default {
         'text-spin': {
           '0%': { left: '0px' },
           '100%': { left: '100%' }
-          // '0%, 100%': { left: '0px' },
-          // '25%': { transform: 'translate(-51%,-50%)' },
-          // '75%': { transform: 'translate(-49%,-50%)' }
         },
         'text-spin2': {
           '0%': { right: '100%' },
           '100%': { right: '0' }
-          // '0%, 100%': { left: '0px' },
-          // '25%': { transform: 'translate(-51%,-50%)' },
-          // '75%': { transform: 'translate(-49%,-50%)' }
+        },
+        popup: {
+          '0%': { opacity: '0' },
+          '50%': { opacity: '1' },
+          '100%': { opacity: '0' }
         }
-      },
-
-      colors: {
-        primary: 'var(--color-primary)'
       }
     }
   },
