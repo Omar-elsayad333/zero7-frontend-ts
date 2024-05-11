@@ -1,6 +1,7 @@
 /* semantic color variables for this project */
 :root {
   --color-primary: #d1ae6f;
+  --color-primary-dark: #7e6a45;
 
   --color-secondary: #898888;
 
@@ -19,4 +20,25 @@ body {
   color: #fff;
   min-height: 100dvh;
   background: var(--color-background);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: var(--color-primary);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-dark);
 }
