@@ -8,11 +8,14 @@ export default {
       padding: '1rem'
     },
     extend: {
+      fontFamily: {
+        times: ['Times New Roman', 'sans-serif']
+      },
       colors: {
         primary: 'var(--color-primary)'
       },
       backgroundImage: {
-        'hero-pattern': "url('./src/assets/icons/HomeBackground.svg')"
+        'hero-pattern': "url('@/assets/icons/HomeBackground.svg')"
       },
       keyframes: {
         'text-spin': {
